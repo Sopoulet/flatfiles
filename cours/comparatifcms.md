@@ -9,10 +9,10 @@ Il permet, à un individu ou à un groupes, de mettre à jour le contenu d’un 
 comparatif
 -
 * WordPress
-*Joomla
-*DotClear
+* Joomla
+* DotClear
 * bbPress
-*Drupal
+* Drupal
 
 ### Tableau ###
 
