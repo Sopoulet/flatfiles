@@ -1,12 +1,17 @@
-CMS
+
+:octopus: Qu'est ce qu'un CMS ? :octopus: 
 ==
-Définition
+
+:pig_nose: Définition :pig_nose:
 -
+
 CMS : content management system, en français, « système de gestion de contenu », est un programme qui utilise les bases de données et qui permet de gérer l'apparence et le contenu de son site web.
 
 Il permet, à un individu ou à un groupes, de mettre à jour le contenu d’un site web à partir du panneau d’administration.
 
-comparatif
+
+
+:whale2: Liste de CMS :whale2:
 -
 * WordPress
 * Joomla
@@ -14,7 +19,7 @@ comparatif
 * bbPress
 * Drupal
 
-### Tableau ###
+### :shipit: Tableau comparatif :shipit: ###
 
 Nom   | Wordpress | Joomla |  bbPress
 ------------ | ------------- | -------------| -------------
