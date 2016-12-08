@@ -1,0 +1,20 @@
+- name: Sophie Lucas
+  hobbies: Video
+  cursus: MMI
+  motivation: plein
+  avatar: https://avatars1.githubusercontent.com/u/22632572?v=3&s=400
+  github: Sopoulet
+
+- name: Leslie Barat
+  hobbies: architectute
+  cursus: archi
+  motivation: plein
+  avatar: https://avatars1.githubusercontent.com/u/22632597?v=3&s=400
+  github: Lesliebarat
+
+- name: Sophie Herscovici
+  hobbies: illustration
+  cursus: beaux arts
+  motivation: plein
+  avatar: https://avatars1.githubusercontent.com/u/22632573?v=3&s=400
+  github: Boreall
