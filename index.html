@@ -1,23 +1,20 @@
 ---
+layout: default
+title: accueil
 ---
-<!DOCTYPE html>
-<html>
-    <head>
-        <!-- En-tête de la page -->
-        <meta charset="utf-8" />
-        <title>{{sites.title}}</title>
-        <link rel="stylesheet" media="screen" type="text/css" href="style.css"/>
-        
-    </head>
-    <header> <h1> Bienvenue </h1></header>
-    <body>
-       Post haec Gallus Hierapolim profecturus ut expeditioni specie tenus adesset, Antiochensi plebi suppliciter 
+
+  <main>
+  Post haec Gallus Hierapolim profecturus ut expeditioni specie tenus adesset, Antiochensi plebi suppliciter 
         obsecranti ut inediae dispelleret metum, quae per multas difficilisque causas adfore iam sperabatur, non 
         ut mos est principibus, quorum diffusa potestas localibus subinde medetur aerumnis, disponi quicquam statuit
         vel ex provinciis alimenta transferri conterminis, sed consularem Syriae Theophilum prope adstantem ultima 
         metuenti multitudini dedit id adsidue replicando quod invito rectore nullus egere poterit victu.
-        
-        <baseline>{{sites.baseline}}</baseline>
-    </body>
-    <footer>Ici c'est le footer</footer>
-</html>
+  <p>{{site.description}}</p>
+  <h2>Les articles</h2>
+  {% for post in site.posts %}
+    <h3>{{post.title}}</h3>
+    <p>{{post.content}}</p>
+    <a href="{{post.url}}">Lire la suite</a>
+  {% endfor %}
+  </main>
+
