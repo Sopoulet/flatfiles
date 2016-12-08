@@ -1,0 +1,18 @@
+
+---
+layout: page
+title: membres
+navigation_weight: 6
+---
+<h3>Membres de github</h3>
+<ul>
+{% for member in site.data.members %}
+  <li>
+    <img src="{{ member.avatar }}" width="60" alt="{{ member.github }}"/>
+    <a href="https://github.com/{{ member.github }}">
+      {{ member.name }}
+    </a>
+    <p> Hobbies : {{ member.hobbies }}, <br>Cursus : {{ member.cursus }}, <br>Motivation : {{ member.motivation }}</p>
+  </li>
+{% endfor %}
+</ul>
