@@ -1,3 +1,12 @@
-title: sopoulettos
+title: sophie site
+description: poulet
+baseline: pour les poulets
+copyright: sophie
+encodage: UTF-8
+telephone: 00 00 00 00 00
+mail: sophie.lucas@etu.univ-rouen.fr
+adresse: 7 bis rue des poulet
 
-baseline: Pour les poulets, par des poulets.
+collections:
+  cours:
+    output: true
