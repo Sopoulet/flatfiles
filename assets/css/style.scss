@@ -1,7 +1,7 @@
 ---
 
 ---
-$color-primary:#eee;
+$color-primary:#588674;
 
 @font-face {
   font-family: "OpenSans";
@@ -16,13 +16,13 @@ html, body{
 
 a{
   text-decoration: none;
-  color:#444;
+  color:#588674;
   transition: color .3s ease;
   font-weight:700;
 }
 
 a:hover{
-  color:#888;
+  color:#96264d;
   transition:color .3s ease;
 }
 
@@ -31,10 +31,10 @@ section{
 }
 
 header{
-  background:#aaa;
+  background:#eaf74d;
   background: URL("../images/bandeau1.jpg");
   background-size: cover;
-  color:#fff;
+  color:#26966f;
   font-family: "OpenSans";
 }
 
