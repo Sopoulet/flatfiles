@@ -40,7 +40,7 @@ Fichier _page.html_ dans le dossier layouts => imbrication de template.
 
  ---
 
-# Billets ²
+# Billets 
 
  Créer dossier _posts et dans le dossier _layouts le fichier posts.html.
 
