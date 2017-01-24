@@ -1,4 +1,3 @@
-
 ---
 layout: page
 title: membres
@@ -12,7 +11,19 @@ navigation_weight: 6
     <a href="https://github.com/{{ member.github }}">
       {{ member.name }}
     </a>
-    <p> Hobbies : {{ member.hobbies }}, <br>Cursus : {{ member.cursus }}, <br>Motivation : {{ member.motivation }}</p>
+    <p> Hobbies : {{ member.hobbies }}, <br>Cursus : {{ member.cursus }}, <br>Motivation : {{ member.motivation }}
+    <br>Football team : 
+    {% for ligue in site.data.football %}
+      {% assign footballteam = {{ member.footballteam }} %}
+      {% assign clubs = ligue[1] | where: code, footballteam %}
+      {% for club in clubs %}
+        {{ club.name }}
+      {% endfor %}
+    {% endfor %}
+    <!--{% if member.footballteam = site.data.football.clubs[1].code %}
+      {{ site.data.football.clubs[1].name }}
+    {% endif %}-->
+    </p>
   </li>
 {% endfor %}
 </ul>
