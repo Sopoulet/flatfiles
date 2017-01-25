@@ -1,6 +1,6 @@
 ---
-layout: page
 title: contact
+layout: page
 ---
 
   <main>

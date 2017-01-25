@@ -1,6 +1,6 @@
 ---
-layout: post
 title: loutres
+layout: post
 ---
 
 #article sur les loutres

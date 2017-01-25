@@ -1,6 +1,6 @@
 ---
-layout: post
 title: article
+layout: post
 ---
 
 #Article article ipsum 1

@@ -3,7 +3,6 @@ layout: cours
 nom: Boucles jekyll
 ---
 
-
 # Généralités
 
 Les valeurs dans l'en-tête sont en YAML, Front Matter.

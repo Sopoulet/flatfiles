@@ -1,16 +1,10 @@
+---
 title: sophie site
-description: poulet
-baseline: pour les poulets
-copyright: sophie
-encodage: UTF-8
-telephone: 00 00 00 00 00
-mail: sophie.lucas@etu.univ-rouen.fr
-adresse: 7 bis rue des poulet
-
+timezone: UTC
 collections:
   cours:
+    title: Cours
     output: true
-    
   posts:
     title: Posts
     output: true
@@ -37,4 +31,11 @@ defaults:
     type: pages
   values:
     layout: page
+description: poulet
+baseline: pour les poulets
+copyright: sophie
+encodage: UTF-8
+telephone: 00 00 00 00 00
+mail: sophie.lucas@etu.univ-rouen.fr
+adresse: 7 bis rue des poulet
 permalink: pretty

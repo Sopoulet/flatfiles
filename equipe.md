@@ -1,6 +1,6 @@
 ---
-layout: page
 title: equipe
+layout: page
 ---
 
   <main>
