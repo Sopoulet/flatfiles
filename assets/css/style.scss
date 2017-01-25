@@ -1,7 +1,7 @@
 ---
 ---
 
-$color-primary:#eee;
+$color-primary:#a81d31;
 
 @font-face {
   font-family: "OpenSans";
@@ -12,6 +12,7 @@ html, body{
   width:100%;
   margin:0;
   padding:0;
+  background:#decade;
 }
 
 a{
