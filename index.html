@@ -1,15 +1,16 @@
 ---
 layout: default
 title: accueil
-navigation_weight: 4
 ---
 
-<h1>Blog sopoulet</h1>
-<p>blog</p>
-<br>
-<ul>
-  {% for post in site.posts %}
-    <li><a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
 
+  <main>
+  Poulet
+  <p>{{site.description}}</p>
+  <h2>Pouet</h2>
+  {% for post in site.posts %}
+    <h3>{{post.title}}</h3>
+    <p>{{post.content}}</p>
+    <a href="{{post.url}}">Lire la suite</a>
+  {% endfor %}
+  </main>
