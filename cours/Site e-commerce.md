@@ -15,7 +15,7 @@ Shopify (liquid)
 
 product.html
 API
--
+
 
 Snipcart + jekyll
 Snipcart + siteleaf
