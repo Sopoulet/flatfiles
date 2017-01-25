@@ -3,21 +3,6 @@ layout: default
 head: snipcart.html
 ---
 
-<div class="product-details">
-  <img src="{{ page.image }}" alt="{{ page.name }}" class="thumbnail"/>
-  <div class="product-description">
-    <p>{{ page.name }}</p>
-    <p>{{ page.content }}</p>
-    <button class="snipcart-add-item"
-      data-item-name="{{ page.name }}"
-      data-item-id="{{ page.sku }}"
-      data-item-image="{{ page.image }}"
-      data-item-url="{{ site.url }}{{ page.url }}"
-      data-item-price="{{ page.price }}">
-      Buy it for {{ page.price }} $
-    </button>
-  </div>
-</div>
 
 <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" data-api-key="{{ site.snipcart_api_key }}" id="snipcart"></script>
 <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet" type="text/css" />
