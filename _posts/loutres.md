@@ -3,7 +3,7 @@ title: loutres
 layout: post
 ---
 
-#article sur les loutres
+#article sur les loutres !
 
 
 La loutre commune a une allure typique des mustélidés avec son corps allongé et ses courtes pattes. Son corps mesure entre 60 et 85 cm de long pour les animaux adultes. La hauteur au garrot de la loutre d’Europe n’excède pas les 30 cm. Elle possède une grande queue effilée de 35 à 55 cm de long, épaisse au niveau de la base et fine à l’extrémité. Ses pattes courtes et robustes sont munies de 5 doigts comportant des griffes pointues. On note que les doigts sont palmés.
